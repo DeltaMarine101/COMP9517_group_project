@@ -20,6 +20,28 @@ COMP9517_group_project
         └───supp  
             ├───supp_img  
             └───annotation.json  
+    └───lane_detection_data  
+        ├───train_set
+            └───label_data_0313.json
+            └───label_data_0531.json
+            └───label_data_0601.json  
+            └───clips
+                └───0313-1
+                └───0313-2
+                └───0531
+                └───0601
+                    └───1494452385593783358
+                        └───20.jpg
+                    └─── etc...
+        ├───test_set  
+            └───test_tasks_0627.json
+            └───0530
+            └───0531
+            └───0601
+                └───1494452381594376146
+                    └───20.jpg
+                └─── etc...
+
 ```
 Here's a command cheatsheet since I sometimes forget:  
 ![Git cheatsheet](https://i.redd.it/8341g68g1v7y.png)
